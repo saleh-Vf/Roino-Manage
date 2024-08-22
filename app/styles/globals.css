@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --main: #F5F7FB;
+    --primary: #445AF7;
+    --purple: #7756D8;
+    --gray: #737A85;
+    --dark-gunmetal: #1D2935;
+    --blue-chalk: #EEEAFF;
+    --soapstone-white: #FCFBFC;
+    --blue-lavender: #E3EAFB;
+    --white:#ffffff;
+    
+
+}
+
+@font-face {
+    font-family: 'peyda';
+    font-style: normal;
+    src: url("/fonts/payda/Peyda-Medium.ttf") format("truetype");
+}
+
+body {
+    direction: rtl;
+    height: 100vh;
+    font-family: 'peyda', serif;
+}
+#scroll-servises::-webkit-scrollbar {
+    display: none;
+  }
